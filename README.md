@@ -1,4 +1,4 @@
-# Formula 1 Budget Allocation Model
+# F1 Monte Carlo Strategy Model
 
 Python-based Monte Carlo simulation and optimisation project exploring strategic budget allocation in a Formula 1-style championship environment.
 
@@ -21,8 +21,6 @@ The model simulates:
 - Full 10-race championship seasons
 - Championship win probabilities
 
-using large-scale Monte Carlo simulation.
-
 ## Key Features
 
 - Sequential stochastic driver-signing model
@@ -37,26 +35,21 @@ using large-scale Monte Carlo simulation.
 
 ### Trade-off between consistency and championship upside
 
-![Trade-off](figures/fig4_tradeoff_scatter.png)
+![Trade-off](fig4_tradeoff_scatter.png)
 
 ### Reliability investment vs DNF probability
 
-![Reliability](figures/fig2_reliability_dnf_curve.png)
+![Reliability](fig2_reliability_dnf_curve.png)
 
-### Robustness analysis
+### Opponent sensitivity
 
-![Robustness](figures/fig8_meanopt_robustness.png)
+![Opponent sensitivity](fig10_opponent_sensitivity.png)
 
-## Repository Structure
+## Repository Contents
 
 ```text
-src/
-    core_model.py
-    search_optimisation.py
-    sensitivity_analysis.py
-
-figures/
-    *.png
-
-report/
-    MATH3001_PATEL_REPORT.pdf
+core_model.py
+search_optimisation.py
+sensitivity_analysis.py
+MATH3001_PATEL_REPORT.pdf
+figures/*.png
