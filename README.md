@@ -53,3 +53,26 @@ search_optimisation.py
 sensitivity_analysis.py
 MATH3001_PATEL_REPORT.pdf
 figures/*.png
+
+Note: source files are currently stored in nested `src` folders.
+
+## Methods Used
+
+- Monte Carlo simulation
+- Simulation-based optimisation
+- Sensitivity analysis
+- Probabilistic modelling
+- Paired simulation techniques
+- Confidence interval estimation
+
+## Technologies
+
+- Python
+- NumPy
+- Matplotlib
+
+## Author
+
+Kiran Patel  
+BSc Natural Sciences (Mathematics & Environmental Science)  
+University of Leeds
