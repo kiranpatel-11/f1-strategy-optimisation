@@ -53,6 +53,7 @@ search_optimisation.py
 sensitivity_analysis.py
 MATH3001_PATEL_REPORT.pdf
 figures/*.png
+```
 
 Note: source files are currently stored in nested `src` folders.
 
